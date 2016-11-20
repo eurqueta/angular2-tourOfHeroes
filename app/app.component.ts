@@ -4,7 +4,7 @@ import { Component } from '@angular/core'
     moduleId : module.id,
     selector : "my-app",
     template :`
-        <h1>{{title}}</h1>  
+        <h1>{{title}}</h1>
         <nav>
             <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
             <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
@@ -14,5 +14,5 @@ import { Component } from '@angular/core'
     styleUrls:['app.component.css']
 })
 export class AppComponent{
-    title: "Tour of Heroes";
+    title= "Tour of Heroes";
 }

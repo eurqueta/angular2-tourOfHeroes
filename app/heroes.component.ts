@@ -18,7 +18,7 @@ export class HeroesComponent implements OnInit  {
 
   constructor(private heroService:HeroService,
      private router:Router){
-      //this.heroes = this.heroService.getHeroes();
+       
   }
 
   getHeroes(): void {

@@ -11,7 +11,7 @@
         [class.selected]="heroe == selectedHeroe">
             <span class="badge">{{heroe.id}}</span>{{heroe.name}}
             <button class="delete"
-                (click)="delete(hero); $event.stopPropagation()">x</button>
+                (click)="delete(heroe); $event.stopPropagation()">x</button>
         </li>
     </ul>
     <div *ngIf="selectedHeroe">
